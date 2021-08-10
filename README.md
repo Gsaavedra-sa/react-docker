@@ -1,21 +1,31 @@
-link para a aplicaçao funcionando no heroku,e link para repositorio git
-https://reactdesafio.herokuapp.com/
-https://github.com/Gsaavedra-sa/react-docker
+#Descrição
+Aplicação React do desafio devops, foi criado o codigo e feito as automatizações de implementação de devops utilizando algumas ferramentas de mercado atuais.
 
-Aplicação React js 
-Servidor web Nginx
-Containers Docker
-Heroku deploy
-travis integraçao
+#Dependencias
+Docker
+Docker-compose
 
-para starta o projeto
-#docker-compose up -d --build
-ja sobe todos os containers e starta a aplicação e foi integrado com o travis para fazermos o deploy, ao fazer commit para o git o travis faz o build e depois faz o deploy automatico para o Heroku, podendo ser alterado para uma instancia na AWS, mas como minha conta acabou o perido free nao pude subir direto na aws.
+#Instalação
+https://docs.docker.com/engine/install/ubuntu/
+# oque esta sendo usado
 
-acessar localhost
-#localhost:http://localhost:8080/
-a aplicação do react funciona na porta 3000, mas foi redirecionado para a porta 8080  do nginx.
+Foi utilizado as seguintes ferramentas para desenvolver o projeto
 
+- [ReactJS] - para o front da aplicação!
+- [docker] - para conteiners na nossa aplicação.
+- [nginx] - servidor web com ssl.
+- [github] - repositorio dos commits.
+- [travis] - integração CI/CD
+- [heroku] - deploy da aplicação
 
+#Rodando a aplicação
+development
+$docker-compose up -d --build #sobe a aplicação + nginx
 
+producion
+travis para fazer o build e deploy da aplicação
+heroku onde foi feito o deploy
 
+#acessos na aplicação
+https://reactdesafio.herokuapp.com/ 
+https://localhost/
