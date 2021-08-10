@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/Gsaavedra-sa/react-docker.svg?branch=master)](https://travis-ci.org/Gsaavedra-sa/react-docker)
+[![Build Status](https://www.travis-ci.com/Gsaavedra-sa/react-docker.svg?branch=master)](https://www.travis-ci.com/Gsaavedra-sa/react-docker)
