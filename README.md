@@ -33,5 +33,5 @@ Foi utilizado as seguintes ferramentas para desenvolver o projeto
 
 # acessos na aplicação
 
-https://reactdesafio.herokuapp.com/ 
-https://localhost/ #local
+- https://reactdesafio.herokuapp.com/ #prod
+- https://localhost/ #local
