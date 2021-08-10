@@ -4,8 +4,8 @@ Aplicação React do desafio devops, foi criado o codigo e feito as automatizaç
 
 
 # Dependencias
-Docker
-Docker-compose
+- Docker
+- Docker-compose
 
 
 # instalação
@@ -23,14 +23,15 @@ Foi utilizado as seguintes ferramentas para desenvolver o projeto
 
 
 # Rodando a aplicação
-development
-$docker-compose up -d --build #sobe a aplicação + nginx
+#development
+- $docker-compose up -d --build #sobe a aplicação + nginx
 
-producion
-travis para fazer o build e deploy da aplicação
-heroku onde foi feito o deploy
+#producion
+- $travis para fazer o build e deploy da aplicação
+- $heroku onde foi feito o deploy
 
 
 # acessos na aplicação
-https://reactdesafio.herokuapp.com/ #prod
+
+https://reactdesafio.herokuapp.com/ 
 https://localhost/ #local
