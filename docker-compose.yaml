@@ -4,8 +4,10 @@ services:
          build: nginx/
          volumes:
              - ./nginx:/usr/share/nginx/html/
+             - ./nginx:/etc/nginx/certs/
          ports:
              - "8080:80"
+             - "443:443"
     app:
         container_name: dockerized-react-app
         build: 

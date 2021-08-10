@@ -1,5 +1,7 @@
 FROM nginx:latest
 #COPY index.html /usr/share/nginx/html/index.html
+COPY cert.crt /etc/nginx/certs/cert.crt
+COPY cert.key /etc/nginx/certs/cert.key
 COPY default.conf /etc/nginx/conf.d/
 
 #criando um container nginx e copiando o que tem no default para ele, para o redirecionamento

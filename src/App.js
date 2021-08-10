@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        Desafio DevOps.
+        Desafio DevOps, link do repositorio abaixo.
         </p>
         <a
           className="App-link"
