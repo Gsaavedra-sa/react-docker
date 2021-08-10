@@ -10,4 +10,4 @@ RUN npm install
 RUN npm install react-scripts@3.3.1 -g 
 # Inicializa a aplicação
 CMD ["npm", "start"]
-EXPOSE 3333
+#EXPOSE 3000
